@@ -2,4 +2,4 @@
 
 JNLP test and framework
 
-see `docs/README.md` for further details.
+see `docs/README.md` or the [Wiki](wiki) for details.
