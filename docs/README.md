@@ -7,6 +7,8 @@ JNLP tests and framework.
 Testing Java Web Start, JNLP and correlated deployment methods.
 Eventually building a framework for future projects.
 
+[LAUNCH](download/jnlp.jnlp)
+
 ## Manifest for JAR File
 ```
 Manifest-Version: 1.0
@@ -41,12 +43,8 @@ Main-Class: cfh.test.jnlp.Main
 * `jarsigner -keystore path/keystore -tsa http://timestamp.digicert.com jnlp.jar test`
 
 ## Export, Import and trust Certificate
-* `keytool -keystore path/keystore -exportcert -alias test -rfc > test.csr`
-* Import the certificate into the User Signer CA store using Java Console
-  
-* Windows:
-  1. double-click `test.cer`
-  1. install certificate...
+* `keytool -keystore path/keystore -exportcert -alias test -rfc > test.cer`
+* Import the certificate into the User Signer CA store using the Java Console (Windows alternative: double-click and import into CA)
 
 ## Links
 * [Page](https://CHeuberger.github.io/jnlp/) this project page (just this).
