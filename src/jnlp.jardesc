@@ -11,9 +11,7 @@
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
-        <folder path="/github.jnlp/docs"/>
         <javaElement handleIdentifier="=github.jnlp/src\/java"/>
-        <folder path="/github.jnlp/src"/>
         <file path="/github.jnlp/README.md"/>
     </selectedElements>
 </jardesc>
