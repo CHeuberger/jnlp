@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.0" codebase="." href="jnlp.jnlp">
+<jnlp
+    spec="1.0"
+    codebase="https://cheuberger.github.io/jnlp/download" 
+    href="jnlp.jnlp">
   <information>
     <title>JNLP Test Title</title>
     <vendor>C F Heuberger</vendor>
