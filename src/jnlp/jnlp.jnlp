@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" href="jnlp.jnlp">
+  <information>
+    <title>JNLP Test Title</title>
+    <vendor>C F Heuberger</vendor>
+    <homepage href="https://cheuberger.github.io/jnlp/" />
+    <description>JNLP Test Framework</description>
+    <offline-allowed />
+  </information>
+  <resources>
+    <jar href="jnlp.jar" />
+  </resources>
+  <application-desc main-class="cfh.test.jnlp.Main" />
+</jnlp>
