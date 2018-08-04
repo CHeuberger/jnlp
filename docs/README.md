@@ -33,6 +33,21 @@ Main-Class: cfh.test.jnlp.Main
 </jnlp>
 ```
 
+## Create Certificate
+* `keytool -keystore path/keystore -genkeypair -alias test -keyalg RSA -dname "CN=Test" -validity 366`
+* `keytool -keystore path/keystore -selfcert -alias test -validity 366`
+
+## Sign JAR
+* `jarsigner -keystore path/keystore -tsa http://timestamp.digicert.com jnlp.jar test`
+
+## Export, Import and trust Certificate
+* `keytool -keystore path/keystore -exportcert -alias test -rfc > test.csr`
+* Import the certificate into the User Signer CA store using Java Console
+  
+* Windows:
+  1. double-click `test.cer`
+  1. install certificate...
+
 ## Links
 * [Page](https://CHeuberger.github.io/jnlp/) this project page (just this).
 * [Wiki](https://github.com/CHeuberger/jnlp/wiki) for details (soon, WIP).
