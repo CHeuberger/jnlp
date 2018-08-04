@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="github.jnlp/build/jnlp.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/github.jnlp/src/jnlp.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" mainClassHandleIdentifier="=github.jnlp/src\/java&lt;cfh.test.jnlp{Main.java[Main" manifestLocation="/github.jnlp/src/manifest.txt" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <folder path="/github.jnlp/docs"/>
+        <javaElement handleIdentifier="=github.jnlp/src\/java"/>
+        <folder path="/github.jnlp/src"/>
+        <file path="/github.jnlp/README.md"/>
+    </selectedElements>
+</jardesc>
