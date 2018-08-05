@@ -10,6 +10,6 @@ Eventually building a framework for future projects.
 [**`LAUNCH`**](download/jnlp.jnlp)
 
 
-[*Page*](https://cheuberger.github.io/jnlp/) |
+[Main](https://cheuberger.github.io/) |
 [Repository](https://github.com/CHeuberger/jnlp) |
 [Wiki](https://github.com/CHeuberger/jnlp/wiki)
